@@ -8,6 +8,9 @@ threading implementation.  I've always used ACE for large, sophisticated, applic
 you just need something quick and easy.  That's the point of this library.  It works - doesn't have
 threading bugs, etc.
 
+I always find condition variables too verbose compared to the .NET implementation of Events.  So I built that
+here - it works the same.
+
 This uses all C++, no add-in library is needed.   
 
 This is just a few headers and nothing else.  So you can just add it to your includes and be done with it.
